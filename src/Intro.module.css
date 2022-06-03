@@ -1,0 +1,39 @@
+.pageContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: #023047;
+
+  color: white;
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: 160px;
+  margin-bottom: 120px;
+}
+
+.title {
+  font-size: 32px;
+  align-self: left;
+
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  max-width: 60%;
+  line-height: 2rem;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
