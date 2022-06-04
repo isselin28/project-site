@@ -1,4 +1,5 @@
 import styles from "./Intro.module.css";
+import Profile from "./assets/profile.jpeg";
 import { Link } from "react-router-dom";
 
 function Intro() {
@@ -23,12 +24,15 @@ function Intro() {
         </div>
         <div class={styles.btnContainer}>
           <Link to="/projects" class={styles.btnProject}>
-            Visit my personal space
+            <b>Visit my personal space</b>
           </Link>
           <Link to="/projects" class={styles.btnProject}>
-            Visit my projects
+            <b>Visit my projects</b>
           </Link>
         </div>
+      </div>
+      <div class={styles.photoContainer}>
+        <img src={Profile} alt="profile" class={styles.photo} />
       </div>
     </div>
   );
