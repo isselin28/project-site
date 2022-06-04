@@ -1,8 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./Blog";
+import Blog from "./Blog";
+import Intro from "./Intro";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Intro />} />
+        <Route path="projects" element={<Blog />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
