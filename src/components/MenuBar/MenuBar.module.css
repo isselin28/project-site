@@ -1,6 +1,14 @@
 .container {
-  background-color: blue;
-  min-width: 240px;
+  display: flex;
+  flex-direction: column;
 
-  flex-grow: 2;
+  text-align: center;
+}
+
+.menu {
+  background-color: #219ebc;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 4px;
+  color: white;
 }
