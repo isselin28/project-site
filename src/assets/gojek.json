@@ -1,0 +1,35 @@
+{
+  "id": "gojek",
+  "title": "Gojek / Moka",
+  "intro": "After graduating in 2019 from a local university in Singapore, I was accepted at Moka as a frontend engineer. Moka offers a point-of-sale application designed to simplify business operations for small and medium businesses. Which in a few months was bought by Gojek, a decacorn startup in South-East asia. These are the projects I was in",
+  "projects": [
+    {
+      "title": "React Component Library",
+      "about": "Backoffice was a very big app, an unstructured app that in time grows more in complexity. In order to create a structure, one of it we need to have a reusable group of components for developers to use. Hence, a component library. PIC of the project, development with the team, and closely collaborating with the UI/UX team to implement the new design system."
+    },
+    {
+      "title": "GoFood middleware UI",
+      "about": "After Moka was bought by Gojek, the plan to align moka users with GoFood apps became imminent. This project was to create a middleware UI that allows Moka users to onboards on GoFood app. It was my first experience in developing an end-to-end cycle of an app."
+    },
+    {
+      "title": "GoStore",
+      "about": "In order for POS to stay relevant and become the central nervous system of merchants, POS needs to evolve into a commerce enablement platform and support both offline and online transactions. As a core member of GoStore Frontend, we developed the app from the build-up. The app allows each merchant to have their own digital store, e-commerce functionalities, SEO, payment, and data tracking. One of GoStore’s features is called Nationwide Shipping. Allowing users to ship logistics nationally across indonesia. PIC on frontend side, managing the projects requirements and cross-team function, backend and QA."
+    },
+    {
+      "title": "Mobile Item Library",
+      "about": "Even though Backoffice were designed for desktop, 18% of the users are using mobile to manage and create items where the experience was broken. Hence, we need a responsive UI for mobile users.<br/> Lead the development of the mobile version of the item library page. Implement using new UI/UX design specifically for ease of mobile users, using media queries to handle responsive design for various mobile devices."
+    },
+    {
+      "title": "Multi Layer Ingredient",
+      "about": "Multi Layered Ingredients is a feature to improve the creation of ingredients and recipes for merchants. Previously, ingredients were defined only as one type, and this is causing merchants need to manually create new data to store more complex ingredients. Let’s say in creating a burger, a more complex ingredient, such as burger patty, consists of other ingredients too: meat and onion. Multi layered ingredient feature allows merchants to store ingredients in different steps, raw, semi-finished ingredients, and recipes, this allows users to have a more precise inventory handling and to view the real-time stock of items."
+    },
+    {
+      "title": "Advanced Inventory",
+      "about": "Heavy inventory handling improvements. Adding approvals for different roles of employees, displaying history and notes of a transfer, allowing merchants to create full and partial transfer."
+    },
+    {
+      "title": "Modifier Stock",
+      "about": "Improving the existing modifier tracking system. Improve partner Hubster onboarding number."
+    }
+  ]
+}
