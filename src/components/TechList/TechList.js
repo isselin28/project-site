@@ -4,19 +4,17 @@ import styles from "./TechList.module.css";
 function TechList() {
   const skillList = [
     "Node.js",
+    "JavaScript",
     "React",
     "Redux",
     "Next.js",
     "Styled-components",
     "Tailwind CSS",
-    "JavaScript",
-    "HTML",
     "CSS",
     "Jest",
     "Cypress",
+    "HTML",
   ];
-
-  const bookList = ["Eloquent JavaScript"];
 
   return (
     <div class={styles.container}>
@@ -25,9 +23,6 @@ function TechList() {
       </div>
       <div class={styles.listContainer}>
         {skillList.map((item) => (
-          <div class={styles.skillItem}>{item}</div>
-        ))}
-        {bookList.map((item) => (
           <div class={styles.skillItem}>{item}</div>
         ))}
       </div>
