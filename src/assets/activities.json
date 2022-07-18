@@ -1,0 +1,28 @@
+{
+  "id": "activities",
+  "title": "Activities & Events",
+  "intro": "",
+  "projects": [
+    {
+      "title": "NTU Open House 2019",
+      "about": ""
+    },
+    {
+      "title": "Mechanical & Aerospace Engineering Club",
+      "about": ""
+    },
+    {
+      "title": "NTU Peak Leadership",
+      "about": ""
+    },
+    {
+      "title": "Berkeley Summer Exchange Programme",
+      "about": ""
+    },
+    {
+      "title": "International Mathematics Competitions",
+      "about": "Went to several Mathematics Competitions during middle school, as a representative of Indonesia's team. IMC Thailand, IWYMIC Taiwan, IMC Singapore, WIZMIC India.",
+      "images": ""
+    }
+  ]
+}
