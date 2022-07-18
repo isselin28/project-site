@@ -16,6 +16,10 @@
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .submenu {
   text-align: left;
   margin-left: 8px;

@@ -23,14 +23,26 @@ function MenuBar() {
         "International Math Competitions",
       ],
     },
-    { main: "Art Projects", submenu: [] },
+    {
+      main: "Art Projects",
+      submenu: [],
+      link: "https://imisselin.portfoliobox.net/digitalarts",
+    },
   ];
 
   return (
     <div class={styles.container}>
       {menuList.map((menu) => (
         <div class={styles.dropdownContainer}>
-          <div class={styles.menu}>{menu.main}</div>
+          {menu.link ? (
+            <div class={styles.menu}>
+              <a href={menu.link} class={styles.menu}>
+                {menu.main}
+              </a>
+            </div>
+          ) : (
+            <div class={styles.menu}>{menu.main}</div>
+          )}
           <div class={styles.submenu}>
             {menu.submenu.map((submenu) => (
               <div>{submenu}</div>
