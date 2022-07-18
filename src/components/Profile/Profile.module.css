@@ -1,6 +1,4 @@
-.container {
-  background-color: salmon;
-  min-width: 240px;
-
-  flex-grow: 1;
+.title {
+  font-size: 32px;
+  text-align: right;
 }
