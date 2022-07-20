@@ -16,7 +16,9 @@ function Profile() {
         </Link>
         <a
           href="https://www.linkedin.com/in/isselinmoektijono/"
+          target="_blank"
           class={styles.icon}
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} size="xl" />
         </a>

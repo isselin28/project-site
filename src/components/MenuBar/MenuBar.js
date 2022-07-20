@@ -36,7 +36,12 @@ function MenuBar() {
         <div class={styles.dropdownContainer}>
           {menu.link ? (
             <div class={styles.menu}>
-              <a href={menu.link} class={styles.menu}>
+              <a
+                href={menu.link}
+                target="_blank"
+                class={styles.menu}
+                rel="noreferrer"
+              >
                 {menu.main}
               </a>
             </div>
