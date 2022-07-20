@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+
+  min-width: 240px;
+  margin: 16px;
 }
 
 .dropdownContainer {
@@ -12,7 +15,6 @@
   background-color: #219ebc;
   border-radius: 4px;
   padding: 6px;
-  margin: 4px;
   color: white;
 }
 
@@ -20,7 +22,17 @@ a {
   text-decoration: none;
 }
 
-.submenu {
+.submenuContainer {
+  display: flex;
+  flex-direction: column;
   text-align: left;
+  margin-top: 8px;
   margin-left: 8px;
+
+  max-width: 240px;
+}
+
+.submenu:hover {
+  color: #219ebc;
+  cursor: pointer;
 }

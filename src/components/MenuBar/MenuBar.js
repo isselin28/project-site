@@ -1,35 +1,22 @@
 import React from "react";
 import styles from "./MenuBar.module.css";
+import gojek from "../../assets/gojek.json";
+import personal from "../../assets/personal.json";
+import activities from "../../assets/activities.json";
+import { Link } from "react-scroll";
+
+const menuList = [
+  gojek,
+  personal,
+  activities,
+  {
+    title: "Art Projects",
+    projects: [],
+    link: "https://imisselin.portfoliobox.net/digitalarts",
+  },
+];
 
 function MenuBar() {
-  const menuList = [
-    {
-      main: "Gojek / Moka",
-      submenu: [
-        "React Component Library",
-        "Gofood Middleware UI",
-        "GoStore",
-        "POS Features",
-      ],
-    },
-    { main: "Personal Projects", submenu: ["Tetris", "Lotek Kalipah Apo"] },
-    {
-      main: "Activities & Events",
-      submenu: [
-        "NTU Open House 2019",
-        "MAE Club",
-        "NTU Peak Leadership",
-        "Berkeley Summer Exchange",
-        "International Math Competitions",
-      ],
-    },
-    {
-      main: "Art Projects",
-      submenu: [],
-      link: "https://imisselin.portfoliobox.net/digitalarts",
-    },
-  ];
-
   return (
     <div class={styles.container}>
       {menuList.map((menu) => (
@@ -42,15 +29,22 @@ function MenuBar() {
                 class={styles.menu}
                 rel="noreferrer"
               >
-                {menu.main}
+                {menu.title}
               </a>
             </div>
           ) : (
-            <div class={styles.menu}>{menu.main}</div>
+            <div class={styles.menu}>{menu.title}</div>
           )}
-          <div class={styles.submenu}>
-            {menu.submenu.map((submenu) => (
-              <div>{submenu}</div>
+          <div class={styles.submenuContainer}>
+            {menu.projects?.map((submenu) => (
+              <Link
+                to={submenu.id}
+                spy={true}
+                smooth="easeInOutQuad"
+                isDynamic={true}
+              >
+                <div class={styles.submenu}>{submenu.menu}</div>
+              </Link>
             ))}
           </div>
         </div>

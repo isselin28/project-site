@@ -1,7 +1,4 @@
 .pageContainer {
-  width: 100%;
-  height: calc(100vh - 100px);
-
   display: flex;
   justify-content: center;
   margin-top: 40px;
@@ -11,26 +8,11 @@
 .leftContainer {
   display: flex;
   flex-direction: column;
-  align-self: start;
+  align-self: flex-start;
 
-  position: -webkit-sticky;
   position: sticky;
-  top: 0;
-}
-
-.profileContainer {
-  min-width: 240px;
-  height: 280px;
-
-  margin: 16px;
-
-  flex-grow: 1;
-}
-
-.menuContainer {
-  min-width: 240px;
-  flex-grow: 2;
-  margin: 16px;
+  position: -webkit-sticky;
+  top: 40px;
 }
 
 .techlistContainer {

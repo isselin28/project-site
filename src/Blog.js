@@ -8,12 +8,8 @@ function Blog() {
   return (
     <div class="pageContainer">
       <div class="leftContainer">
-        <div class="profileContainer">
-          <Profile />
-        </div>
-        <div class="menuContainer">
-          <MenuBar />
-        </div>
+        <Profile />
+        <MenuBar />
       </div>
       <ContentColumn />
     </div>

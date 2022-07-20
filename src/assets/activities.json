@@ -4,22 +4,32 @@
   "intro": "",
   "projects": [
     {
-      "title": "NTU Open House 2019",
+      "id": "ntu_open_house",
+      "menu": "NTU Open House Jakarta",
+      "title": "NTU Open House Jakarta",
       "about": ""
     },
     {
+      "id": "mae_club",
+      "menu": "MAE Club",
       "title": "Mechanical & Aerospace Engineering Club",
       "about": ""
     },
     {
+      "id": "ntu_peak",
+      "menu": "NTU Peak Leadership",
       "title": "NTU Peak Leadership",
       "about": ""
     },
     {
+      "id": "berkeley_summer",
+      "menu": "Berkeley Summer Exchange",
       "title": "Berkeley Summer Exchange Programme",
       "about": ""
     },
     {
+      "id": "inter_math",
+      "menu": "International Math Competitions",
       "title": "International Mathematics Competitions",
       "about": "Went to several Mathematics Competitions during middle school, as a representative of Indonesia's team. IMC Thailand, IWYMIC Taiwan, IMC Singapore, WIZMIC India.",
       "images": ""

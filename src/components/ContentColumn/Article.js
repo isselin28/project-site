@@ -11,7 +11,9 @@ export function Article(props) {
       {text.projects.map((project) => {
         return (
           <div class={styles.projectContainer}>
-            <div class={styles.projectTitle}>{project.title}</div>
+            <div class={styles.projectTitle} name={project.id}>
+              {project.title}
+            </div>
             <div class={styles.projectAbout}>{project.about}</div>
             {project.image && (
               <img
