@@ -6,6 +6,7 @@
     {
       "id": "react_component_library",
       "menu": "React Component Library",
+      "tags": ["Engineering Improvements"],
       "title": "React Component Library",
       "about": "Backoffice, or what we called our merchant’s dashboard was growing intensively and handled by more than 70 software engineers. In order to give it a structure, we need to standardize the elements building the Backoffice. To improve development experience and codebase structures, we need to have a component library as a single source of truth for the UI components of Backoffice. PIC of the project and development within the frontend team, and closely collaborating with the UI/UX team to implement the new design system."
     },

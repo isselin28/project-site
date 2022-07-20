@@ -6,18 +6,21 @@
     {
       "id": "ntu_open_house",
       "menu": "NTU Open House Jakarta",
+      "tags": ["Student Ambassador"],
       "title": "NTU Open House Jakarta",
-      "about": ""
+      "about": "Key speaker of the parent-student talk show session and represented the students from the Engineering programme, to share with 600+ audiences about NTU education and university experiences."
     },
     {
       "id": "mae_club",
       "menu": "MAE Club",
+      "tags": ["Head Officer"],
       "title": "Mechanical & Aerospace Engineering Club",
-      "about": ""
+      "about": "Led and coordinate a team of 11 members to publish 17 event yearly, reaching more than 3000 students of Mechanical and Aerospace Engineering through printed media and social media campaigns. Envisioned branding and publicity for events and sponsorship, directed and guided team members through workshops to study design concepts and using creative design softwares. Collaborated with other 25 members of the main-committee to discuss issues related with MAE students welfare and initiatives to improve university dynamics, on a weekly meeting basis."
     },
     {
       "id": "ntu_peak",
       "menu": "NTU Peak Leadership",
+      "tags": [],
       "title": "NTU Peak Leadership",
       "about": ""
     },

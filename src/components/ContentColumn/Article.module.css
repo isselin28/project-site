@@ -19,6 +19,12 @@
   align-items: flex-start;
 }
 
+.titleContainer {
+  display: flex;
+  gap: 4px;
+  align-items: flex-end;
+}
+
 .projectTitle {
   font-size: 17px;
   padding: 4px 8px;
@@ -26,6 +32,15 @@
 
   background-color: #8ecae6;
   border-radius: 4px;
+}
+
+.tags {
+  font-size: 14px;
+  padding: 4px 8px;
+  margin: 8px 0;
+  background-color: #ffb704;
+  border-radius: 4px;
+  flex-wrap: wrap;
 }
 
 .projectAbout {
