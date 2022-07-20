@@ -22,12 +22,12 @@
 .titleContainer {
   display: flex;
   gap: 4px;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .projectTitle {
   font-size: 17px;
-  padding: 4px 8px;
+  padding: 4px 10px;
   margin: 8px 0;
 
   background-color: #8ecae6;
@@ -38,9 +38,18 @@
   font-size: 14px;
   padding: 4px 8px;
   margin: 8px 0;
-  background-color: #ffb704;
+  background-color: #fdb197;
   border-radius: 4px;
   flex-wrap: wrap;
+}
+
+.projectLink {
+  display: flex;
+  gap: 6px;
+  align-items: flex-end;
+  margin-top: 10px;
+  color: #013047;
+  opacity: 0.6;
 }
 
 .projectAbout {

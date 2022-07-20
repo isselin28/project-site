@@ -7,12 +7,14 @@
       "id": "lotek",
       "menu": "Lotek Kalipah Apo",
       "title": "Lotek Kalipah Apo",
+      "link": "https://lotekkalipahapo42.com/",
       "about": "A responsive design website for Lotek Kalipah Apo restaurant, located in Indonesia. Introducing a local heritage Sundanese cuisine to public."
     },
     {
       "id": "tetris",
       "menu": "Tetris",
       "title": "Tetris",
+      "link": "https://isselin28.github.io/basic-tetris/",
       "about": "A basic tetris app, built using JavaScript, CSS, HTML.",
       "image": "https://user-images.githubusercontent.com/38120246/163720525-14445d9c-ea57-4f16-8909-bfb002d86cfc.png"
     }
