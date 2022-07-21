@@ -8,7 +8,7 @@
       "menu": "React Component Library",
       "tags": ["Engineering Improvements"],
       "title": "React Component Library",
-      "about": "Backoffice, or what we called our merchant’s dashboard was growing intensively and handled by more than 70 software engineers. In order to give it a structure, we need to standardize the elements building the Backoffice. To improve development experience and codebase structures, we need to have a component library as a single source of truth for the UI components of Backoffice. PIC of the project and development within the frontend team, and closely collaborating with the UI/UX team to implement the new design system."
+      "about": "Backoffice, or what we called our merchant’s dashboard was growing intensively and handled by more than 70 software engineers. In order to give it a structure, we need to standardize the elements building the Backoffice. To improve development experience and codebase structures, we need to have a component library as a single source of truth for the UI components of Backoffice. <br/><ul><li> PIC of the project and development within the frontend team, and closely collaborating with the UI/UX team to implement the new design system.</li></ul>"
     },
     {
       "id": "gofood_middleware",
@@ -20,13 +20,13 @@
       "id": "gostore",
       "menu": "GoStore",
       "title": "GoStore",
-      "about": "In order for POS to stay relevant and become the central nervous system of merchants, POS needs to evolve into a commerce enablement platform and support both offline and online transactions. As a core member of GoStore Frontend, we developed the app from the build-up. The app allows each merchant to have their own digital store, e-commerce functionalities, SEO, payment, and data tracking. One of GoStore’s features is called Nationwide Shipping. Allowing users to ship logistics nationally across indonesia. PIC on frontend side, managed the projects requirements and cross-team functions with backend and QA team."
+      "about": "In order for POS to stay relevant and become the central nervous system of merchants, POS needs to evolve into a commerce enablement platform and support both offline and online transactions. As a core member of GoStore Frontend, we developed the app from the build-up. The app allows each merchant to have their own digital store, e-commerce functionalities, SEO, payment, and data tracking. <br/><ul><li>One of GoStore’s features is called Nationwide Shipping. Allowing users to ship logistics nationally across indonesia. PIC on frontend side, managed the projects requirements and cross-team functions with backend and QA team.</li>"
     },
     {
       "id": "pos_features",
       "menu": "POS Features",
       "title": "Mobile Item Library",
-      "about": "Backoffice was initially designed for desktop view. However 18% of the users are using mobile to manage and create items, and using mobile view caused some incompatibilities that made the experience broken. Hence, we need to develop a responsive UI for mobile users.  Lead the development of the mobile version of the item library page. Implemented using new UI/UX design specifically for ease of mobile users, using media queries to handle responsive design for various mobile devices."
+      "about": "Backoffice was initially designed for desktop view. However 18% of the users are using mobile to manage and create items, and using mobile view caused some incompatibilities that made the experience broken. Hence, we need to develop a responsive UI for mobile users. <br/><ul><li> Lead the development of the mobile version of the item library page. Implemented using new UI/UX design specifically for ease of mobile users, using media queries to handle responsive design for various mobile devices.</li></ul>"
     },
     {
       "title": "Multi Layered Ingredient",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Advanced Inventory",
-      "about": "Heavy inventory handling improvements. Implemented various steps of approvals and different roles of employees to handle the complicated process when transferring the items/ingredients between numerous outlets of merchant's. Developed frontend features to display chronological history and notes of the transfer, handle the system to create full and partial transfer. Core involvement in frontend development plan and API structure discussions."
+      "about": "Heavy inventory handling improvements. Implemented various steps of approvals and different roles of employees to handle the complicated process when transferring the items/ingredients between numerous outlets of merchant's. <br/><ul><li>Developed frontend features to display chronological history and notes of the transfer, handle the system to create full and partial transfer. Core involvement in frontend development plan and API structure discussions.</li></ul>"
     },
     {
       "title": "Modifier Stock",

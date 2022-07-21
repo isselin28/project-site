@@ -2,9 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import styles from "./Article.module.css";
+import ReactMarkdown from "react-markdown";
 
 export function Article(props) {
-  const { text } = props;
+  const { text, markdown } = props;
 
   return (
     <div className={styles.container}>
@@ -22,7 +23,12 @@ export function Article(props) {
               ))}
             </div>
             <div class={styles.projectAbout}>
-              {project.about}
+              {markdown ? (
+                <ReactMarkdown children={project.about} />
+              ) : (
+                <div dangerouslySetInnerHTML={{ __html: project.about }} />
+              )}
+
               {project.link && (
                 <a
                   href={project.link}
@@ -35,13 +41,14 @@ export function Article(props) {
                 </a>
               )}
             </div>
-            {project.image && (
-              <img
-                src={project.image}
-                alt={project.title}
-                class={styles.image}
-              />
+            {project.images && (
+              <div class={styles.imagesContainer}>
+                {project.images?.map((img) => (
+                  <img src={img} alt={project.title} class={styles.image} />
+                ))}
+              </div>
             )}
+            <div class={styles.caption}>{project.caption}</div>
           </div>
         );
       })}

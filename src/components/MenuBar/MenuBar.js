@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./MenuBar.module.css";
 import gojek from "../../assets/gojek.json";
 import personal from "../../assets/personal.json";
-import activities from "../../assets/activities.json";
+import activities from "../../assets/activities.js";
 import { Link } from "react-scroll";
 
 const menuList = [

@@ -48,6 +48,7 @@
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "react-markdown": "^8.0.3",
     "react-scroll": "^1.8.7"
   }
 }

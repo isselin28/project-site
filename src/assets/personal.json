@@ -15,8 +15,10 @@
       "menu": "Tetris",
       "title": "Tetris",
       "link": "https://isselin28.github.io/basic-tetris/",
-      "about": "A basic tetris app, built using JavaScript, CSS, HTML.",
-      "image": "https://user-images.githubusercontent.com/38120246/163720525-14445d9c-ea57-4f16-8909-bfb002d86cfc.png"
+      "about": "A basic tetris game app, built using JavaScript, CSS, HTML.",
+      "images": [
+        "https://user-images.githubusercontent.com/38120246/163720525-14445d9c-ea57-4f16-8909-bfb002d86cfc.png"
+      ]
     }
   ]
 }

@@ -53,10 +53,28 @@
 }
 
 .projectAbout {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+}
+
+.imagesContainer {
+  display: flex;
+  gap: 4px;
+  width: 110%;
+  overflow: auto;
+  margin-bottom: 16px;
 }
 
 .image {
-  width: 450px;
+  display: block;
+  object-fit: cover;
+  max-width: 320px;
+  max-height: 280px;
   border-radius: 4px;
+  width: auto;
+  height: auto;
+}
+
+.caption {
+  font-size: 13px;
+  font-style: italic;
 }

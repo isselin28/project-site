@@ -3,7 +3,7 @@ import { Article } from "./Article.js";
 import styles from "./ContentColumn.module.css";
 import gojek from "../../assets/gojek.json";
 import personal from "../../assets/personal.json";
-import activities from "../../assets/activities.json";
+import activities from "../../assets/activities";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
@@ -23,7 +23,7 @@ function ContentColumn() {
       )}
       <Article text={gojek} />
       <Article text={personal} />
-      <Article text={activities} />
+      <Article text={activities} markdown />
     </div>
   );
 }
