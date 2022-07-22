@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://isselin28.github.io",
+  "homepage": "https://isselin28.github.io/project-site/",
   "dependencies": {
     "@babel/plugin-syntax-import-assertions": "^7.17.12",
     "@chakra-ui/react": "^2.1.0",
