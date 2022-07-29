@@ -1,14 +1,13 @@
 {
   "id": "personal",
   "title": "Personal Projects",
-  "intro": "",
   "projects": [
     {
       "id": "lotek",
       "menu": "Lotek Kalipah Apo",
       "title": "Lotek Kalipah Apo",
       "link": "https://lotekkalipahapo42.com/",
-      "about": "A responsive design website for Lotek Kalipah Apo restaurant, located in Indonesia. Introducing a local heritage Sundanese cuisine to public."
+      "about": "A responsive design website for Lotek Kalipah Apo, one of the oldest local heritage Sundanese Cuisine restaurant located in Jakarta and Bandung, Indonesia."
     },
     {
       "id": "tetris",

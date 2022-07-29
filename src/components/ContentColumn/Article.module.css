@@ -4,7 +4,7 @@
   gap: 16px;
 
   padding-bottom: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 36px;
   border-bottom: 1px solid grey;
 }
 
@@ -58,20 +58,27 @@
 
 .imagesContainer {
   display: flex;
+
   gap: 4px;
   width: 110%;
   overflow: auto;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
 }
 
 .image {
   display: block;
   object-fit: cover;
-  max-width: 320px;
-  max-height: 280px;
+  max-width: 360px;
+  max-height: 240px;
   border-radius: 4px;
   width: auto;
   height: auto;
+}
+
+.smallImage {
+  composes: image;
+  max-width: 250px;
+  max-height: 220px;
 }
 
 .caption {
