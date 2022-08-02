@@ -3,6 +3,8 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import styles from "./Article.module.css";
 import ReactMarkdown from "react-markdown";
+import GojekLogo from "../../assets/gojek_logo.png";
+import MokaLogo from "../../assets/moka_logo.png";
 
 export function Article(props) {
   const { text, markdown } = props;
@@ -21,9 +23,20 @@ export function Article(props) {
     );
   };
 
+  const gojekWithLogo = () => (
+    <div class={styles.logoContainer}>
+      <img src={GojekLogo} alt="gojek" class={styles.logoGojek} />
+      <div>Gojek |&nbsp;</div>
+      <img src={MokaLogo} alt="moka" class={styles.logoMoka} />
+      <div> Moka</div>
+    </div>
+  );
+
   return (
     <div className={styles.container}>
-      <div class={styles.mainTitle}>{text.title}</div>
+      <div class={styles.mainTitle} name={text.id}>
+        {text.title === "Gojek | Moka" ? gojekWithLogo() : text.title}
+      </div>
       <div dangerouslySetInnerHTML={{ __html: text.intro }} />
       {text.link && showProjectLink(text.link)}
       {text.projects?.map((project) => {

@@ -8,6 +8,24 @@
   border-bottom: 1px solid grey;
 }
 
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoMoka {
+  width: 26px;
+  height: 26px;
+  padding-right: 6px;
+  padding-left: 1px;
+}
+
+.logoGojek {
+  width: 30px;
+  height: 30px;
+  padding-right: 3px;
+}
+
 .mainTitle {
   font-size: 26px;
 }

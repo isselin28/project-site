@@ -3,7 +3,6 @@ import styles from "./MenuBar.module.css";
 import gojek from "../../assets/gojek.json";
 import personal from "../../assets/personal.json";
 import activities from "../../assets/activities.js";
-import arts from "../../assets/arts.json";
 import { Link } from "react-scroll";
 
 const menuList = [
@@ -12,6 +11,7 @@ const menuList = [
   activities,
   {
     title: "Art & Graphic Design",
+    id: "arts",
   },
 ];
 
@@ -20,7 +20,16 @@ function MenuBar() {
     <div class={styles.container}>
       {menuList.map((menu) => (
         <div class={styles.dropdownContainer}>
-          <div class={styles.menu}>{menu.title}</div>
+          <div class={styles.menu}>
+            <Link
+              to={menu.id}
+              spy={true}
+              smooth="easeInOutQuad"
+              isDynamic={true}
+            >
+              {menu.title}
+            </Link>
+          </div>
           <div class={styles.submenuContainer}>
             {menu.projects?.map((submenu) => (
               <Link
