@@ -34,7 +34,7 @@ const activities = {
       tags: [],
       title: "NTU Peak Leadership",
       about:
-        "NTU PEAK is an intensive one-month case challenge programme co-developed by the university and industries to groom NTU students into industry-relevant future leaders who wish to impact the workplace and community. <br/><br/> <ul><li>Passed the competitive selections amongst 400+ applicants across NTU to join the programme.</li><li>Our team was co-paired to solve business problems with Société Générale, a French multinational investment bank and financial service. We developed and presentate a proposal for new employee documentation system and data gathering method to improve HR capability in measuring and increasing employee's satisfaction within the company.</li></ul>",
+        "NTU PEAK is an intensive one-month case challenge programme co-developed by the university and industries to groom NTU students into industry-relevant future leaders who wish to impact the workplace and community. <br/><br/> <ul><li>One of the 32 selected candidates out of 400+ applicants across university cohorts to enter the programme.</li><li>Our team was co-paired to solve business problems with Société Générale, a French multinational investment bank and financial service. We developed and presentate a proposal for new employee documentation system and data gathering method to improve HR capability in measuring and increasing employee's satisfaction within the company.</li></ul>",
     },
     // {
     //   id: "summer_design",
@@ -49,7 +49,7 @@ const activities = {
       menu: "Berkeley Summer Exchange",
       title: "Berkeley Summer Exchange Programme",
       about:
-        "Went for a 3 months summer exchange programme in University of California, Berkeley. <ul><li>DES INV 22: Prototyping and Fabrication. Under the Art + Design department, the module taught the design process and digital fabrication processes through hands on projects. Created a spinning top that leaves visible trails and a miniature tank controlled using Arduino UNO.</li></ul>",
+        "Went for a 3 months summer exchange programme in University of California, Berkeley.<ul><li>DES INV 22: Prototyping and Fabrication. Under the Art + Design department, the module taught the design process and digital fabrication processes through hands on projects. Created a spinning top that leaves visible trails and a miniature tank controlled using Arduino UNO.</li></ul>",
     },
     {
       id: "inter_math",
