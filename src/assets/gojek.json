@@ -34,7 +34,7 @@
     {
       "title": "Multi Layered Ingredient",
       "tags": ["POS Feature Development"],
-      "about": "Multi Layered Ingredients is a feature to improve the creation of ingredients and recipes for merchants. Previously, ingredients were defined only as one type, and this caused merchants to manually create new submissions to store more complex ingredients. Let’s say in creating a burger, a more complex ingredient, such as burger patty, consists of other ingredients too: meat and onion. Multi layered ingredient feature allows merchants to store ingredients in different steps: raw, semi-finished ingredients, and recipes. This allows users to have a more precise inventory handling and to view the real-time stock of items.<br/><ul><li>Core team member of feature development.</li></ul>"
+      "about": "Multi Layered Ingredients is a feature to improve the creation of ingredients and recipes for merchants. Previously, ingredients were defined only as one type, and this caused merchants to manually create new submissions to store more complex ingredients. Let’s say in creating a burger, a more complex ingredient, such as burger patty, consists of other ingredients too: meat and onion. Multi layered ingredient feature allows merchants to store ingredients in different steps: raw, semi-finished ingredients, and recipes. This allows users to have a more precise inventory handling and to view the real-time stock of items."
     },
     {
       "title": "Advanced Inventory",
