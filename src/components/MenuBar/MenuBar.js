@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./MenuBar.module.css";
-import gojek from "../../assets/gojek.json";
+import gojek from "../../assets/gojek";
 import personal from "../../assets/personal.json";
 import activities from "../../assets/activities.js";
 import { Link } from "react-scroll";

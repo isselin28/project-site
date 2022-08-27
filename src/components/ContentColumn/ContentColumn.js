@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Article } from "./Article.js";
 import styles from "./ContentColumn.module.css";
-import gojek from "../../assets/gojek.json";
+import gojek from "../../assets/gojek";
 import personal from "../../assets/personal.json";
 import activities from "../../assets/activities";
 import arts from "../../assets/arts";
