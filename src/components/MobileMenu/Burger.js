@@ -5,7 +5,6 @@ import Bar from "../../assets/bars_solid.svg";
 
 function Burger() {
   const [isShow, setShow] = useState(false);
-  console.log("isshow", isShow);
 
   return (
     <div className={styles.stickyContainer}>
