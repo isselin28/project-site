@@ -2,3 +2,8 @@
   width: 50%;
   margin: 20px;
 }
+
+.mobileContainer {
+  padding-left: 16px;
+  width: calc(100% - 6vw);
+}

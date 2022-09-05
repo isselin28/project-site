@@ -70,6 +70,8 @@
   margin-top: 10px;
   color: #013047;
   opacity: 0.6;
+  position: relative;
+  z-index: 1;
 }
 
 .projectAbout {
@@ -80,8 +82,8 @@
   display: flex;
 
   gap: 4px;
-  width: 110%;
-  overflow: auto;
+  width: calc(100% - 24px);
+  overflow: scroll;
   margin-bottom: 6px;
 }
 

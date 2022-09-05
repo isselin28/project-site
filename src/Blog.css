@@ -15,10 +15,7 @@
   top: 28px;
 }
 
-.techlistContainer {
-  /* max-width: 160px;
-  margin: 16px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0; */
+.mobilePageContainer {
+  padding-bottom: 20px;
+  margin-left: 8vw;
 }

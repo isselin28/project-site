@@ -1,0 +1,44 @@
+.modal {
+  display: flex;
+  justify-content: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3000;
+
+  background-color: white;
+}
+
+.menuContainer {
+  margin-top: 50px;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 16px;
+  left: 4vw;
+  z-index: 1;
+
+  font-size: 32px;
+  font-weight: 400;
+  color: grey;
+}
+
+.stickyContainer {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 30px;
+  padding-left: 4vw;
+}
+
+.burgerIcon {
+  width: 24px;
+  color: black;
+
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
+}
