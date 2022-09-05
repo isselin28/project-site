@@ -71,7 +71,7 @@
   color: #013047;
   opacity: 0.6;
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 .projectAbout {
