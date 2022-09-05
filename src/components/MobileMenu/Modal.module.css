@@ -9,7 +9,7 @@
   width: 100%;
   z-index: 3000;
 
-  background-color: white;
+  background-color: snow;
 }
 
 .menuContainer {
@@ -32,6 +32,7 @@
   position: -webkit-sticky;
   top: 30px;
   padding-left: 4vw;
+  z-index: 3;
 }
 
 .burgerIcon {

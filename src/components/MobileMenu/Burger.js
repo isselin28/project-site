@@ -11,7 +11,7 @@ function Burger() {
       <div onClick={() => setShow(true)}>
         <img className={styles.burgerIcon} src={Bar} alt="bar icon" />
       </div>
-      <Modal isShow={isShow} onClose={() => setShow(false)} />
+      {isShow && <Modal onClose={() => setShow(false)} />}
     </div>
   );
 }
