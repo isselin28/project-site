@@ -10,7 +10,7 @@ const gojek = {
       title: "GoStore",
       tags: ["Mobile Web App Development"],
       about:
-        "In order for POS to stay relevant and become the central nervous system of merchants, POS needs to evolve into a commerce enablement platform and support both offline and online transactions. As a core member of GoStore Frontend, we developed the application from the build-up. GoStore enables each merchant to have their own digital store, e-commerce functionalities, SEO, payment, and data tracking. <br/><ul><li>One of GoStore’s features is called Nationwide Shipping, which platforms merchants and users to ship and receive logistics nationally across Indonesia. PIC on frontend side, managed the projects requirements and cross-team collaborations with backend and QA team.</li><li> Developed Web share API features that allow users to share internal site content into their mobile's social media applications.</li><li>Lead stakeholders-engineers meetings for Behaviour Driven Development (BDD) specs using Cucumber.</li><li>Automate Lighthouse Performance by integrating LHCI job in gitlab.</li><li>Documented GoStore Page Flow to point out the repeating bugs caused by unstandardized flow. Gave suggestions on handling history routes as improvement for subsequent implementation.</li></ul>",
+        "In order for POS to stay relevant and become the central nervous system of merchants, POS needs to evolve into a commerce enablement platform and support both offline and online transactions. As a core member of GoStore Frontend, we developed the application from the build-up. GoStore enables each merchant to have their own digital store, e-commerce functionalities, SEO, payment, and data tracking. <br/><ul><li>Lead development of GoStore's Nationwide Shipping Feature, empower merchants and 3rd party logistics to enable users deliver products nationally.</li><li> Developed Web share API features that allow users to share internal site content into their mobile's social media applications.</li><li>Lead stakeholders-engineers meetings for Behaviour Driven Development (BDD) specs using Cucumber.</li><li>Automate Lighthouse Performance by integrating LHCI job in gitlab.</li><li>Documented GoStore Page Flow to point out the repeating bugs caused by unstandardized flow. Gave suggestions on handling history routes as improvement for subsequent implementation.</li></ul>",
     },
     {
       id: "pos_features",
@@ -26,7 +26,7 @@ const gojek = {
       tags: ["Engineering Improvements"],
       title: "React Component Library",
       about:
-        "Backoffice, or what we called our merchant’s dashboard was growing intensively and was handled by an increasing number of software engineers. To improve development experience and codebase structures, we need to have a component library as a single source of truth for the UI components of Backoffice. <br/><ul><li> PIC of the project and development within the frontend team, closely collaborating with the UI/UX team to implement the new design system, successfully developed a prototype utilising Storybook.</li></ul>",
+        "Backoffice, or what we called our merchant’s dashboard was growing intensively and was handled by an increasing number of software engineers. To improve development experience and codebase structures, we need to have a component library as a single source of truth for the UI components of Backoffice. <br/><ul><li> PIC of the project and development within the frontend team, closely collaborating with the UI/UX team to implement the new Moka design system.</li><li>Successfully delivered the UI component library prototype utilising Storybook.</li></ul>",
     },
     // {
     //   id: "gofood_middleware",
@@ -46,7 +46,7 @@ const gojek = {
       title: "Advanced Inventory",
       tags: ["POS Feature Development"],
       about:
-        "Heavy inventory handling improvements. Implemented various steps of approvals and different roles of business operators to handle the logistic processes when transferring the items/ingredients between numerous outlets of merchant's. <br/><ul><li>Developed frontend features to display chronological history and notes of the transfer, handle the UI and state management to implement full and partial transfer request. Core involvement in frontend development plan and API structure discussions.</li></ul>",
+        "Heavy inventory handling improvements. Implemented various steps of approvals and different roles of business operators to handle the logistic processes when transferring the items/ingredients between numerous outlets of merchant's. <br/><ul><li>Developed frontend features to display chronological history and notes of the transfer, handle the UI and state management to implement full and partial transfer request.</li><li>Core involvement in frontend development plan and API structure discussions.</li><li>Actively involved in project roadmap and feature planning for major BackOffice projects in feature team.</li></ul>",
     },
     // {
     //   title: "Modifier Stock",
