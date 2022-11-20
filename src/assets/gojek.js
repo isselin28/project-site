@@ -2,7 +2,7 @@ const gojek = {
   id: "gojek",
   title: "Gojek | Moka",
   intro:
-    "Moka offers a point-of-sale (POS) application designed to simplify business operations for small and medium businesses, being used by merchants across Indonesia. The company was bought by Gojek on April 2020, one of the decacorn startups in South-East asia.<br/><br/>Below are the projects that I was involved in Moka / Gojek as a Frontend Engineer.",
+    "Moka offers a point-of-sale (POS) application designed to simplify business operations for small and medium businesses, being used by merchants across Indonesia. Through acquisition, Moka became a part of Gojek, Southeast Asia’s leading on-demand platform and a pioneer of the multi-service ecosystem model in April 2020.<br/><br/>Below are the projects that I was involved in Moka / Gojek as a Frontend Engineer.",
   projects: [
     {
       id: "gostore",
