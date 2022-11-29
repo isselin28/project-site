@@ -14,7 +14,7 @@ const gojek = {
     },
     {
       id: "pos_features",
-      menu: "POS Features",
+      menu: "Mobile Web Item Library",
       title: "Mobile Item Library",
       tags: ["POS Feature Development", "Lead"],
       about:
@@ -44,9 +44,10 @@ const gojek = {
     // },
     {
       title: "Advanced Inventory",
+      menu: "POS Features",
       tags: ["POS Feature Development"],
       about:
-        "Heavy inventory handling improvements. Implemented various steps of approvals and different roles of business operators to handle the logistic processes when transferring the items/ingredients between numerous outlets of merchant's. <br/><ul><li>Developed frontend features to display chronological history and notes of the transfer, handle the UI and state management to implement full and partial transfer request.</li><li>Core involvement in frontend development plan and API structure discussions.</li><li>Actively involved in project roadmap and feature planning for major BackOffice projects in feature team.</li></ul>",
+        "Heavy inventory handling improvements. Implemented various steps of approvals and different roles of business operators to handle the logistic processes when transferring the items/ingredients between numerous outlets of merchant's. <br/><ul><li>Developed frontend features to display chronological history and notes of the transfer, handle the UI and state management to implement full and partial transfer request.</li><li>Core involvement in frontend development plan and API structure discussions.</li><li>Actively involved in project roadmap and feature planning for major BackOffice projects: Advanced Inventory, Advanced Purchase Order, Modifier Stock.</li></ul>",
     },
     // {
     //   title: "Modifier Stock",
