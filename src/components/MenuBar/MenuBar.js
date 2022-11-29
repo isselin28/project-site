@@ -16,8 +16,7 @@ const menuList = [
   },
 ];
 
-function MenuBar(props) {
-  const { onCloseModal } = props;
+function MenuBar() {
   const isMobile = isMobileDevice();
 
   return (
@@ -30,7 +29,6 @@ function MenuBar(props) {
               spy={true}
               smooth="easeInOutQuad"
               isDynamic={true}
-              onClick={onCloseModal}
             >
               {menu.title}
             </Link>

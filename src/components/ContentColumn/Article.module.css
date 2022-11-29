@@ -83,7 +83,7 @@
 
   gap: 4px;
   width: 100%;
-  overflow: scroll;
+  overflow: auto;
   margin-bottom: 6px;
 }
 
