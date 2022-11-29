@@ -28,7 +28,7 @@ const activities = {
       tags: ["Head Officer"],
       title: "Mechanical & Aerospace Engineering Club (MAE Club)",
       about:
-        "The MAE Club is the student's welfare organiser body of the Mechanical and Aerospace Engineering department in Nanyang Technological University. Along with other 25 members of the main-committee, we discussed issues related with MAE students' welfare and took initiatives to improve their university experiences. <br/><br/><ul> <li>Took the role as the Head Officer of Publicity and Publication for consecutive 2 years.</li><li>Led and coordinate a team of 11 members to publish 17 events yearly, reaching more than 3000 students of Mechanical and Aerospace Engineering through printed media and social media campaigns. </li><li>Developed branding design for events and sponsorship with companies. Created workshop sessions to guide and share knowledge with team members about design concepts and creative design softwares.</li></ul>",
+        "The MAE Club is the student's welfare organiser body of the Mechanical and Aerospace Engineering department in Nanyang Technological University. Along with other 25 members of the main-committee, we discussed issues related with MAE students' welfare and held initiatives to improve students' university experiences. <br/><br/><ul> <li>Took the role as the Head Officer of Publicity and Publication for consecutive 2 years.</li><li>Led and coordinate a team of 11 members to publish 17 events yearly, reaching more than 3000 students of Mechanical and Aerospace Engineering through printed media and social media campaigns. </li><li>Developed branding design for events and sponsorship with companies. Initiated workshop sessions to guide and share knowledge with team members about design concepts and creative design softwares.</li></ul>",
     },
     {
       id: "ntu_open_house",
@@ -53,14 +53,14 @@ const activities = {
       menu: "Joint Design Workshop",
       title: "Asia 7 Universities Joint Design Workshop",
       about:
-        "The Joint Design Programme is a design workshop, held in collaboration with 7 universities across Asia (Singapore, Japan, Taiwan, China, and Hongkong) for teams to propose a new product design to solve relevant issue. On 2018, the workshop was held in NTU,Singapore.<br/><br/><ul><li>Attended lectures about design processes, design thinking, and simulation on user experience to achieve a final product design.</li><li>Collaborated with other team members from Japan, Taiwan, and China. Under the topic of Innovative Services & Devices, we designed an IoT product to assist deaf elderly during a conversation using TOSHIBA Recaius platform, utilizing it's voice-to-text recognition feature and cloud data storage.</li></ul>",
+        "The Joint Design Programme is a design workshop, held in collaboration with 7 universities across Asia (Singapore, Japan, Taiwan, China, and Hongkong) for teams to propose a new product design that would contribute for society. On 2018, the workshop was held in NTU,Singapore.<br/><br/><ul><li>Attended lectures about design processes, design thinking, and simulation on user experience to achieve a final product design.</li><li>Collaborated with other team members from Japan, Taiwan, and China. Under the topic of Innovative Services & Devices, we designed an IoT product to assist deaf, partial-hearing elderlies in communication using TOSHIBA Recaius platform, utilizing it's voice-to-text recognition feature and cloud data storage.</li></ul>",
     },
     {
       id: "berkeley_summer",
       menu: "Berkeley Summer Exchange",
       title: "Berkeley Summer Exchange Programme",
       about:
-        "Went for a 3 months summer exchange programme in University of California, Berkeley.<ul><li>DES INV 22: Prototyping and Fabrication, under the Berkeley's Jacobs Institute for Design Innovation. The course taught the concepts, skills and methods required to design, prototype, and fabricate physical objects through hands on projects. Topics include a range of prototyping and fabrication techniques including laser­cutting, 3D modeling and 3D printing, and interface mockups. Built a spinning top that leaves visible trails and a wood miniature tank controlled using Arduino UNO.</li></ul>",
+        "Went for a 3 months summer exchange programme in University of California, Berkeley.<ul><li>DES INV 22: Under Jacobs Institute for Design Innovation. The course taught the skills and methods required to design, prototype, and fabricate physical objects through hands on projects. Topics include a range of prototyping and fabrication techniques including laser­cutting, 3D modeling and 3D printing, and interface mockups. Built a miniature tank controlled using Arduino UNO.</li></ul>",
     },
     // {
     //   id: "teaching_exp",

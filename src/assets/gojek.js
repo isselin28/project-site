@@ -2,7 +2,7 @@ const gojek = {
   id: "gojek",
   title: "Gojek | Moka",
   intro:
-    "Moka offers a point-of-sale (POS) application designed to simplify business operations for small and medium businesses, being used by merchants across Indonesia. Through acquisition, Moka became a part of Gojek, Southeast Asia’s leading on-demand platform and a pioneer of the multi-service ecosystem model in April 2020.<br/><br/>Below are the projects that I was involved in Moka / Gojek as a Frontend Engineer.",
+    "Moka offers a point-of-sale (POS) application designed to simplify business operations for small and medium businesses, being used by merchants across Indonesia. Through acquisition, Moka became a part of Gojek, Southeast Asia’s leading on-demand platform and a pioneer of the multi-service ecosystem model in April 2020.<br/><br/>Below are several projects I was involved with at Moka / Gojek as a Frontend Engineer.",
   projects: [
     {
       id: "gostore",
@@ -18,7 +18,7 @@ const gojek = {
       title: "Mobile Item Library",
       tags: ["POS Feature Development", "Lead"],
       about:
-        "Backoffice was initially designed for desktop view. However in the recent user research, a large group (18%) of our users were using mobile devices to manage and create items, where using mobile view has caused some incompatibilities issues that made the user experiences broken. Hence, we need to develop a responsive UI for mobile users. <br/><ul><li> Lead the mobile version development of the item library page. Implemented feature with the new UI/UX design specifically for ease of mobile users, using media queries to handle responsive design for various mobile devices.</li></ul>",
+        "Backoffice was initially designed for desktop view. However in the recent user research, a large group (18%) of our users were using mobile devices to manage and create items. Using mobile view for Backoffice caused some incompatibilities issues that led to broken user experiences. Hence, we need to develop a responsive UI for mobile users. <br/><ul><li> Lead the mobile version development of the item library page. Implemented feature with the new UI/UX design specifically for ease of mobile users, using media queries to handle responsive design for various mobile devices.</li></ul>",
     },
     {
       id: "react_component_library",
@@ -26,7 +26,7 @@ const gojek = {
       tags: ["Engineering Improvements"],
       title: "React Component Library",
       about:
-        "Backoffice, or what we called our merchant’s dashboard was growing intensively and was handled by an increasing number of software engineers. To improve development experience and codebase structures, we need to have a component library as a single source of truth for the UI components of Backoffice. <br/><ul><li> PIC of the project and development within the frontend team, closely collaborating with the UI/UX team to implement the new Moka design system.</li><li>Successfully delivered the UI component library prototype utilising Storybook.</li></ul>",
+        "Backoffice, or what we called our merchant’s dashboard was growing intensively and was handled by an increasing number of software engineers. It has huge number of UI components with multiple versions, with lack of standard on their UI and functionalities. This has caused inefficient development and difficulties in restructuring the codebase. We need a standardization, as the start towards lean development experience and structured codebase. <br/><ul><li>To solve the problem above, we need to have a component library as a single source of truth for the UI components of Backoffice.</li><li> PIC of the project and development within the frontend team, closely collaborating with the UI/UX team to implement the new Moka design system.</li><li>Successfully delivered the UI component library prototype utilising Storybook.</li></ul>",
     },
     // {
     //   id: "gofood_middleware",
