@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/project-site/static/css/main.6c1d99a7.css",
+    "main.css": "/project-site/static/css/main.a00dfdbd.css",
     "main.js": "/project-site/static/js/main.8cdc41d2.js",
     "static/js/787.ee429b7b.chunk.js": "/project-site/static/js/787.ee429b7b.chunk.js",
     "static/media/ntu_open_aud.jpeg": "/project-site/static/media/ntu_open_aud.1262b42b7ca7764003bc.jpeg",
@@ -13,12 +13,12 @@
     "static/media/ntu_open_mc.jpeg": "/project-site/static/media/ntu_open_mc.f29452a82c9a60c557cb.jpeg",
     "index.html": "/project-site/index.html",
     "static/media/bars_solid.svg": "/project-site/static/media/bars_solid.27df51a0dfd075e2ddf310b339f1fcdb.svg",
-    "main.6c1d99a7.css.map": "/project-site/static/css/main.6c1d99a7.css.map",
+    "main.a00dfdbd.css.map": "/project-site/static/css/main.a00dfdbd.css.map",
     "main.8cdc41d2.js.map": "/project-site/static/js/main.8cdc41d2.js.map",
     "787.ee429b7b.chunk.js.map": "/project-site/static/js/787.ee429b7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c1d99a7.css",
+    "static/css/main.a00dfdbd.css",
     "static/js/main.8cdc41d2.js"
   ]
 }
