@@ -15,10 +15,10 @@ function ContentColumn() {
     <div className={isMobile ? styles.mobileContainer : styles.container}>
       <div className={styles.name}>Isselin Moektijono</div>
       <div className={styles.intro}>
-        {/* <FontAwesomeIcon icon={faHouse} className={styles.icon} />
+        <FontAwesomeIcon icon={faHouse} className={styles.icon} />
         Developer, Designer, Loves to imagine a different world. &nbsp;
         <FontAwesomeIcon icon={faLocationDot} className={styles.icon} />
-        Singapore */}
+        Singapore
       </div>
       <hr />
       <br />
