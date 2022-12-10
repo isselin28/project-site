@@ -7,3 +7,20 @@
   padding-left: 16px;
   width: calc(100% - 6vw);
 }
+
+.name {
+  font-size: 36px;
+  font-weight: 500;
+  padding: 6px 0;
+  color: #013047;
+}
+
+.intro {
+  margin-bottom: 8px;
+}
+
+.icon {
+  font-size: 16px;
+  color: #013047;
+  margin-right: 6px;
+}
