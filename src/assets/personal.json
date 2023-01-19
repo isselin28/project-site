@@ -3,6 +3,13 @@
   "title": "Personal Projects",
   "projects": [
     {
+      "id": "cashit",
+      "menu": "Cash-it",
+      "title": "Cash-it",
+      "link": "https://digitalcashier.netlify.app/",
+      "about": "A fullstack Digital cashier webapp to support businesses, build on MERN (Mongodb, Express, React.js, Node,js) and ChakraUI. Published on Netlify and Heroku."
+    },
+    {
       "id": "lotek",
       "menu": "Lotek Kalipah Apo",
       "title": "Lotek Kalipah Apo",
